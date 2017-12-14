@@ -1,0 +1,64 @@
+include ':app'
+
+include 'OverScroll-Everywhere'
+project(':OverScroll-Everywhere').projectDir = file('../OverScroll-Everywhere/OverScrollSample')
+
+include 'OverScroll'
+project(':OverScroll').projectDir = file('../OverScroll-Everywhere /OverScroll')
+
+include 'RecyclerTabLayout-demo'
+project(':RecyclerTabLayout-demo').projectDir = file('../RecyclerTabLayout/demo')
+
+include 'RecyclerTabLayout'
+project(':RecyclerTabLayout').projectDir = file('../RecyclerTabLayout/library')
+
+include 'Searchable-RecyclerView-Demo'
+project(':Searchable-RecyclerView-Demo').projectDir = file('../Searchable-RecyclerView-Demo/app')
+
+include 'SuperSLiM-demo'
+project(':SuperSLiM-demo').projectDir = file('../SuperSLiM/dbexample')
+
+include 'SuperSLiM'
+project(':SuperSLiM').projectDir = file('../SuperSLiM/library')
+
+include 'ExpandableLayout-xhs'
+project(':ExpandableLayout-xhs').projectDir = file('../ExpandableLayout-xhs/app')
+
+include 'ExpandableLayout-xhs-lib'
+project(':ExpandableLayout-xhs-lib').projectDir = file('../ExpandableLayout-xhs/library')
+
+include 'ExpandableLayout4-demo'
+project(':ExpandableLayout4-demo').projectDir = file('../ExpandableLayout4/demo')
+
+include 'ExpandableLayout4'
+project(':ExpandableLayout4').projectDir = file('../ExpandableLayout4/lib')
+
+include 'ExpandableLayout2-demo'
+project(':ExpandableLayout2-demo').projectDir = file('../ExpandableLayout2/app')
+
+include 'ExpandableLayout2'
+project(':ExpandableLayout2').projectDir = file('../ExpandableLayout2/library')
+
+include 'ExpandableLayout-demo'
+project(':ExpandableLayout-demo').projectDir = file('../ExpandableLayout/app')
+
+include 'ExpandableLayout'
+project(':ExpandableLayout').projectDir = file('../ExpandableLayout/library')
+
+include 'DragSelectRecyclerView-demo'
+project(':DragSelectRecyclerView-demo').projectDir = file('../DragSelectRecyclerView/app')
+
+include 'DragSelectRecyclerView'
+project(':DragSelectRecyclerView').projectDir = file('../DragSelectRecyclerView/library')
+
+include 'DragSelectGooglePhoto'
+project(':DragSelectGooglePhoto').projectDir = file('../DragSelectGooglePhoto/app')
+
+include 'drag-select-recyclerview-demo'
+project(':drag-select-recyclerview-demo').projectDir = file('../drag-select-recyclerview/app')
+
+include 'drag-select-recyclerview'
+project(':drag-select-recyclerview').projectDir = file('../drag-select-recyclerview/library')
+
+include 'LondonEyeLayoutManager'
+project(':LondonEyeLayoutManager').projectDir = file('../LondonEyeLayoutManager/app')
